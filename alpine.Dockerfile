@@ -5,7 +5,7 @@ ARG CREATED
 ARG COMMIT
 ARG VERSION=local
 LABEL \
-    org.opencontainers.image.authors="quentin.mcgaw@gmail.com" \
+    org.opencontainers.image.authors="brad@izn.ai" \
     org.opencontainers.image.created=$CREATED \
     org.opencontainers.image.version=$VERSION \
     org.opencontainers.image.revision=$COMMIT \
