@@ -2,36 +2,36 @@
 
 Ultimate React development container for Visual Studio Code
 
-[![CI build](https://github.com/qdm12/reactdevcontainer/actions/workflows/ci.yml/badge.svg)](https://github.com/qdm12/reactdevcontainer/actions/workflows/ci.yml)
+[![CI build](https://github.com/iznth/reactdevcontainer/actions/workflows/ci.yml/badge.svg)](https://github.com/iznth/reactdevcontainer/actions/workflows/ci.yml)
 
 [![dockeri.co](https://dockeri.co/image/iznth/reactdevcontainer)](https://hub.docker.com/r/iznth/reactdevcontainer)
 
 ![Last Docker tag](https://img.shields.io/docker/v/iznth/reactdevcontainer?sort=semver&label=Last%20Docker%20tag)
 [![Latest size](https://img.shields.io/docker/image-size/iznth/reactdevcontainer/latest?label=Latest%20image)](https://hub.docker.com/r/iznth/reactdevcontainer/tags)
 
-![Last release](https://img.shields.io/github/release/qdm12/reactdevcontainer?label=Last%20release)
+![Last release](https://img.shields.io/github/release/iznth/reactdevcontainer?label=Last%20release)
 [![Last release size](https://img.shields.io/docker/image-size/iznth/reactdevcontainer?sort=semver&label=Last%20released%20image)](https://hub.docker.com/r/iznth/reactdevcontainer/tags?page=1&ordering=last_updated)
-![GitHub last release date](https://img.shields.io/github/release-date/qdm12/reactdevcontainer?label=Last%20release%20date)
-![Commits since release](https://img.shields.io/github/commits-since/qdm12/reactdevcontainer/latest?sort=semver)
+![GitHub last release date](https://img.shields.io/github/release-date/iznth/reactdevcontainer?label=Last%20release%20date)
+![Commits since release](https://img.shields.io/github/commits-since/iznth/reactdevcontainer/latest?sort=semver)
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/qdm12/reactdevcontainer.svg)](https://github.com/qdm12/reactdevcontainer/commits/main)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/y/qdm12/reactdevcontainer.svg)](https://github.com/qdm12/reactdevcontainer/graphs/contributors)
-[![GitHub closed PRs](https://img.shields.io/github/issues-pr-closed/qdm12/reactdevcontainer.svg)](https://github.com/qdm12/reactdevcontainer/pulls?q=is%3Apr+is%3Aclosed)
-[![GitHub issues](https://img.shields.io/github/issues/qdm12/reactdevcontainer.svg)](https://github.com/qdm12/reactdevcontainer/issues)
-[![GitHub closed issues](https://img.shields.io/github/issues-closed/qdm12/reactdevcontainer.svg)](https://github.com/qdm12/reactdevcontainer/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub last commit](https://img.shields.io/github/last-commit/iznth/reactdevcontainer.svg)](https://github.com/iznth/reactdevcontainer/commits/main)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/y/iznth/reactdevcontainer.svg)](https://github.com/iznth/reactdevcontainer/graphs/contributors)
+[![GitHub closed PRs](https://img.shields.io/github/issues-pr-closed/iznth/reactdevcontainer.svg)](https://github.com/iznth/reactdevcontainer/pulls?q=is%3Apr+is%3Aclosed)
+[![GitHub issues](https://img.shields.io/github/issues/iznth/reactdevcontainer.svg)](https://github.com/iznth/reactdevcontainer/issues)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/iznth/reactdevcontainer.svg)](https://github.com/iznth/reactdevcontainer/issues?q=is%3Aissue+is%3Aclosed)
 
 ![Visitors count](https://visitor-badge.laobi.icu/badge?page_id=reactdevcontainer.readme)
 
 ## Features
 
-- Based on [iznth/baseddevcontainer](https://github.com/qdm12/baseddevcontainer)
+- Based on [iznth/baseddevcontainer](https://github.com/iznth/baseddevcontainer)
   - Minimal custom terminal and packages
   - Nodejs, npm and yarn downloaded as Alpine packages
-  - See more [features](https://github.com/qdm12/baseddevcontainer#features)
+  - See more [features](https://github.com/iznth/baseddevcontainer#features)
 - Globally installed: `nodemon`, `create-react-app`, `mocha`, and `jest`
 - Cross platform
   - Easily bind mount your SSH keys to use with **git**
-  - Manage your host Docker from within the dev container, more details at [iznth/baseddevcontainer](https://github.com/qdm12/baseddevcontainer#features)
+  - Manage your host Docker from within the dev container, more details at [iznth/baseddevcontainer](https://github.com/iznth/baseddevcontainer#features)
 - Extensible with docker-compose.yml
 - Two versions:
   1. **Alpine 3.15** based
@@ -61,7 +61,7 @@ Ultimate React development container for Visual Studio Code
         docker run -it --rm -v "/yourrepopath:/repository" iznth/devtainr:v0.2.0 -dev react -path /repository -name projectname
         ```
 
-        Or use the [built binary](https://github.com/qdm12/devtainr#binary)
+        Or use the [built binary](https://github.com/iznth/devtainr#binary)
     - Or manually: download this repository and put the [.devcontainer](.devcontainer) directory in your project.
 1. If you have a *.vscode/settings.json*, eventually move the settings to *.devcontainer/devcontainer.json* in the `"settings"` section as *.vscode/settings.json* take precedence over the settings defined in *.devcontainer/devcontainer.json*.
 1. Open the command palette in Visual Studio Code (CTRL+SHIFT+P) and select `Remote-Containers: Open Folder in Container...` and choose your project directory
@@ -75,8 +75,8 @@ See the [.devcontainer/README.md](.devcontainer/README.md) document in your repo
 
 ## TODOs
 
-- [iznth/baseddevcontainer](https://github.com/qdm12/baseddevcontainer) todos
+- [iznth/baseddevcontainer](https://github.com/iznth/baseddevcontainer) todos
 
 ## License
 
-This repository is under an [MIT license](https://github.com/qdm12/reactdevcontainer/master/LICENSE) unless indicated otherwise.
+This repository is under an [MIT license](https://github.com/iznth/reactdevcontainer/master/LICENSE) unless indicated otherwise.

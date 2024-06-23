@@ -10,9 +10,9 @@ LABEL \
     org.opencontainers.image.created=$CREATED \
     org.opencontainers.image.version=$VERSION \
     org.opencontainers.image.revision=$COMMIT \
-    org.opencontainers.image.url="https://github.com/qdm12/reactdevcontainer" \
-    org.opencontainers.image.documentation="https://github.com/qdm12/reactdevcontainer" \
-    org.opencontainers.image.source="https://github.com/qdm12/reactdevcontainer" \
+    org.opencontainers.image.url="https://github.com/iznth/reactdevcontainer" \
+    org.opencontainers.image.documentation="https://github.com/iznth/reactdevcontainer" \
+    org.opencontainers.image.source="https://github.com/iznth/reactdevcontainer" \
     org.opencontainers.image.title="React Dev container Debian" \
     org.opencontainers.image.description="React TS development container for Visual Studio Code Remote Containers development"
 # Install Debian packages
