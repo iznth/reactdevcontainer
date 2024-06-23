@@ -1,6 +1,7 @@
-ARG BASEDEV_VERSION=v0.13.0
+# ARG BASEDEV_VERSION=v0.13.0
 
-FROM iznth/baseddevcontainer:${BASEDEV_VERSION}-debian
+# FROM iznth/baseddevcontainer:${BASEDEV_VERSION}-debian
+FROM iznth/baseddevcontainer:debian
 ARG CREATED
 ARG COMMIT
 ARG VERSION=local

@@ -1,6 +1,6 @@
-ARG BASEDEV_VERSION=v0.13.0
+# ARG BASEDEV_VERSION=v0.13.0
 
-FROM iznth/baseddevcontainer:${BASEDEV_VERSION}-alpine
+FROM iznth/baseddevcontainer:alpine
 ARG CREATED
 ARG COMMIT
 ARG VERSION=local
