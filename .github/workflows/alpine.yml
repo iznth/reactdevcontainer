@@ -36,7 +36,7 @@ jobs:
 
       - uses: docker/login-action@v1
         with:
-          username: qmcgaw
+          username: iznth
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
 
       - name: Set variables
@@ -70,6 +70,6 @@ jobs:
             COMMIT=${{ steps.vars.outputs.commit }}
             VERSION=${{ steps.vars.outputs.version }}
           tags: |
-            qmcgaw/reactdevcontainer:${{ steps.vars.outputs.version }}
-            qmcgaw/reactdevcontainer:${{ steps.vars.outputs.alpine_version }}
+            iznth/reactdevcontainer:${{ steps.vars.outputs.version }}
+            iznth/reactdevcontainer:${{ steps.vars.outputs.alpine_version }}
           push: true

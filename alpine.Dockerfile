@@ -1,6 +1,6 @@
 ARG BASEDEV_VERSION=v0.13.0
 
-FROM qmcgaw/basedevcontainer:${BASEDEV_VERSION}-alpine
+FROM iznth/baseddevcontainer:${BASEDEV_VERSION}-alpine
 ARG CREATED
 ARG COMMIT
 ARG VERSION=local
@@ -28,3 +28,7 @@ ENV PATH=/root/.npm-packages/bin:$PATH
 VOLUME [ "/workspace/node_modules" ]
 RUN mkdir -p /workspace/node_modules && \
     chmod 700 /workspace/node_modules
+
+RUN apk add --no-cache \
+    bash bash-completion supervisor \
+    autoconf automake build-base libtool nasm
